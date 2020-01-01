@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
       });
     } else if (opcaoJogador == 1 && _opcaoMaquina == 1 ||
         opcaoJogador == 2 && _opcaoMaquina == 2 ||
-        opcaoJogador == 3 && _opcaoMaquina == 3) {
+        opcaoJogador == 3 && _opcaoMaquina == 0) {
       setState(() {
         this._resultado = 'Você ganhou';
         this._score ++;
